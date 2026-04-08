@@ -46,3 +46,19 @@ graph TD
     style Ollama fill:#000,color:#fff
     style Chroma fill:#10b981,color:#fff
     style LocalWeights fill:#7c3aed,color:#fff
+## 📝 Blog Series (Korean)
+
+> 📖 [시대를 역행하는 온프레미스 개발환경 구축기](https://finvault.tistory.com)
+
+| # | Title |
+|---|---|
+| 1탄 | Spring Boot 4.0.5 + JBoss EAP 8.1 WAR 배포 삽질기 |
+| 2탄 | 프로젝트 소개 & 기술스택 & 환경 구성 철학 |
+| 3탄 | JDK21 독립 설치 & JBoss EAP 8.1 설치 |
+| 4탄 | JBoss EAP 8.1 환경설정 & 구동 확인 |
+| 5탄 | STS 설치 & JBoss 서버 연동 |
+| 6탄 | WAR 배포 실패 1 - Logback 충돌 |
+| 7탄 | WAR 배포 실패 2 - spring-web 누락 & tomcat-runtime |
+| 8탄 | Gradle deployToJBoss 자동배포 완성 |
+| 9탄 | 폐쇄망 AI 어시스턴트 - 네트워크 설계 & 보안 정책 |
+| 10탄 | Ollama 설치 & ChromaDB + RAG 구현 (준비중) |
