@@ -46,3 +46,94 @@ graph TD
     style Ollama fill:#000,color:#fff
     style Chroma fill:#10b981,color:#fff
     style LocalWeights fill:#7c3aed,color:#fff
+```
+
+---
+
+## 🔧 Tech Stack
+
+| Component | Technology | Description |
+|---|---|---|
+| LLM Engine | Ollama | Local LLM server (CPU only) |
+| AI Model | DeepSeek Coder 6.7b | Code-specialized LLM |
+| Vector DB | ChromaDB | RAG document storage |
+| Middleware | JBoss EAP 8.1 | Enterprise WAS |
+| Framework | Spring Boot 4.0.5 | Backend framework |
+| Build Tool | Gradle | Build & deploy automation |
+| JDK | JDK 21 | Isolated install (no system env) |
+| IDE | STS 5.1.1 + VS Code | Development environment |
+
+---
+
+## 📁 Project Structure
+
+```text
+C:\projects
+├─ AI\          ← Ollama LLM Server (AI Engine)
+├─ FinAI\       ← AI Coding Assistant POC (Relay Server)
+├─ FinVault\    ← Main Project (Spring Boot WAR)
+└─ was\         ← JBoss EAP 8.1 Server
+```
+
+---
+
+## 🚀 Roadmap
+
+- [x] JBoss EAP 8.1 + Spring Boot 4.0.5 WAR Deployment
+- [x] JDK 21 Isolated Installation
+- [x] Gradle Auto-Deploy Script
+- [x] Network Architecture Design (mTLS, Firewall Policy)
+- [ ] Ollama Installation & DeepSeek Coder Setup
+- [ ] ChromaDB + RAG Implementation
+- [ ] VS Code + Continue.dev Integration
+- [ ] GitLab On-Premises Setup
+- [ ] Jenkins CI/CD Pipeline
+
+---
+
+## 📝 Blog Series (Korean)
+
+> 📖 [시대를 역행하는 온프레미스 개발환경 구축기](https://finvault.tistory.com)
+
+| # | Title |
+|---|---|
+| 1탄 | Spring Boot 4.0.5 + JBoss EAP 8.1 WAR 배포 삽질기 |
+| 2탄 | 프로젝트 소개 & 기술스택 & 환경 구성 철학 |
+| 3탄 | JDK21 독립 설치 & JBoss EAP 8.1 설치 |
+| 4탄 | JBoss EAP 8.1 환경설정 & 구동 확인 |
+| 5탄 | STS 설치 & JBoss 서버 연동 |
+| 6탄 | WAR 배포 실패 1 - Logback 충돌 |
+| 7탄 | WAR 배포 실패 2 - spring-web 누락 & tomcat-runtime |
+| 8탄 | Gradle deployToJBoss 자동배포 완성 |
+| 9탄 | 폐쇄망 AI 어시스턴트 - 네트워크 설계 & 보안 정책 |
+| 10탄 | Ollama 설치 & ChromaDB + RAG 구현 (준비중) |
+
+---
+
+## 🏛️ Design Philosophy
+
+❌ No system environment variable modification
+❌ No shared JDK usage
+✅ Everything self-contained within project folder
+✅ Reproducible with single setup.bat
+✅ Deployable in air-gapped environments
+
+---
+
+## 💬 Contributions & Feedback
+
+Experiences from similar environments (financial sector, air-gapped networks) are highly welcome!
+
+→ [Blog Comments](https://finvault.tistory.com)
+→ [GitHub Issues](https://github.com/finvaultlabs/finvault/issues)
+
+---
+
+## 📄 License
+
+Apache-2.0 License
+
+---
+
+> 💡 **This README is a living document.**
+> Updated continuously as the project progresses.
