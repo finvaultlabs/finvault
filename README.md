@@ -97,17 +97,17 @@ C:\projects
 
 | # | Title |
 |---|---|
-| 1탄 | Spring Boot 4.0.5 + JBoss EAP 8.1 WAR 배포 삽질기 |
-| 2탄 | 프로젝트 소개 & 기술스택 & 환경 구성 철학 |
-| 3탄 | JDK21 독립 설치 & JBoss EAP 8.1 설치 |
-| 4탄 | JBoss EAP 8.1 환경설정 & 구동 확인 |
-| 5탄 | STS 설치 & JBoss 서버 연동 |
-| 6탄 | WAR 배포 실패 1 - Logback 충돌 |
-| 7탄 | WAR 배포 실패 2 - spring-web 누락 & tomcat-runtime |
-| 8탄 | Gradle deployToJBoss 자동배포 완성 |
-| 9탄 | 폐쇄망 AI 어시스턴트 - 네트워크 설계 & 보안 정책 |
-| 10탄 | Ollama 설치 & ChromaDB + RAG 구현 (준비중) |
-
+|     | Spring Boot 4.0.5 + JBoss EAP 8.1 WAR 배포 삽질기 |
+| 1탄 | 프로젝트 소개 & 기술스택 & 환경 구성 철학 |
+| 2탄 | JDK21 독립 설치 & JBoss EAP 8.1 설치 |
+| 3탄 | JBoss EAP 8.1 환경설정 & 구동 확인 |
+| 4탄 | STS 설치 & JBoss 서버 연동 |
+| 5탄 | WAR 배포 실패 1 - Logback 충돌 |
+| 6탄 | WAR 배포 실패 2 - spring-web 누락 & tomcat-runtime |
+| 7탄 | Gradle deployToJBoss 자동배포 완성 |
+| 8탄 | 금융권 폐쇄망 온프레미스 AI 아키텍처: Ollama 도입부터 mTLS 보안 설계까지 |
+| 9탄 | 폐쇄망(Air-Gapped)에 오프라인 AI 엔진 욱여넣기: Ollama & DeepSeek GGUF |
+| 10탄 | VS Code Portable 격리 세팅 및 continue.dev를 통한 Ollama 연동 (작성 중) |
 ---
 
 ## 🏛️ Design Philosophy
