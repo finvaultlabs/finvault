@@ -107,7 +107,7 @@ C:\projects
 | 7탄 | Gradle deployToJBoss 자동배포 완성 |
 | 8탄 | 금융권 폐쇄망 온프레미스 AI 아키텍처: Ollama 도입부터 mTLS 보안 설계까지 |
 | 9탄 | 폐쇄망(Air-Gapped)에 오프라인 AI 엔진 욱여넣기: Ollama & DeepSeek GGUF |
-| 10탄 | VS Code Portable 격리 세팅 및 continue.dev를 통한 Ollama 연동 (작성 중니다 1111) |
+| 10탄 | VS Code Portable 격리 세팅 및 continue.dev를 통한 Ollama 연동 (작성입니다 작성 중니다 1111) |
 ---
 
 ## 🏛️ Design Philosophy
